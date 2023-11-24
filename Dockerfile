@@ -12,4 +12,4 @@ RUN apt-get update &&\
     rm -f cloudflared.deb &&\
     chmod +x web.js
 
-ENTRYPOINT [ "node", "/app/server.js" ]
+ENTRYPOINT [ "node", "server.js" ]
